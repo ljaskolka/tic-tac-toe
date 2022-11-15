@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+html {
+  background: url(../images/background.png) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.gameboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.cell {
+  width: 220px;
+  height: 220px;
+  line-height: 75px;
+  font-size: 100px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 200px;
+}
+
+.cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  max-width: 660px;
+  margin-left: 32%;
+  margin-top: 7.5%;
+}
+
+.tomato {
+  background: url(../images/tomato.png) 0 0 no-repeat;
+  display: block;
+  height: 200px; /* your image height */
+  text-indent: -99999em;
+  width: 200px; /* your image width */
+  overflow: hidden;
+}
+
+.flower {
+  background: url(../images/flower.png) 0 0 no-repeat;
+  display: block;
+  height: 220px; /* your image height */
+  text-indent: -99999em;
+  width: 220px; /* your image width */
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */
